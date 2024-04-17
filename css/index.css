@@ -67,9 +67,7 @@ section {
     font-size: 55px;
     margin-top: 24px;
 }
-#sub-content-text h1 p{
-    margin-top: 0;
-}
+
 /*sub-content*/
 #sub-content {
     display: flex;
@@ -95,11 +93,31 @@ section {
 .text2 {
     align-self: flex-end;
 }
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .call-to-action button{
     display: flex;
     flex-direction: row;
+    padding: 10px 20px 10px 20px;
+    color: var(--color1);
+    background-color: black;
+    align-items: center;
+    border-radius: 16px;
+    font-size: xx-large;
+    font-family: Quicksand;
+    font-weight: 600;
 }
-button img {
-    height: 30px;
-    gap: 10px;
+button:hover{
+    box-shadow:
+    0 0 0 4px var(--color1), 
+    0 0 0 7px black; 
+    cursor: pointer;
+}
+
+button img{
+    margin-right: 1%;
 }

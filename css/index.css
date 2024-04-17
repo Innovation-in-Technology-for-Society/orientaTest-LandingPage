@@ -1,0 +1,42 @@
+:root{
+    --color1: #E5D9F2;
+    --color2: #F5EFFF;
+    --color3: #CDC1FF;
+    --color4: #A594F9;
+    --color5: #7371FC;
+}
+
+body{
+    font-family: Quicksand;
+    background-color: var(--color2);
+}
+
+header{
+    background-image: linear-gradient(to right, var(--color2) , var(--color4));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 33px 40px 33px 40px;
+    height: 116px;
+    border-radius: 60px;
+}
+
+header .left{
+    width: 50%;
+    margin-left: 78px;
+}
+.left img{
+    height: 100px;
+}
+
+header .right{
+    width: 50%;
+}
+header .right a{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0% 2% 0% 4%;
+    padding: 13px 4% 13px 4%;
+}

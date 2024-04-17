@@ -43,6 +43,20 @@ header .right a{
     padding: 13px 4% 13px 4%;
 }
 
+/*separador container*/
+.separator-container {
+    width: 67%;
+    margin: 0 auto;
+}
+
+/*separador*/
+.separator {
+    border: none;
+    /* Sin borde */
+    border-top: 4px solid var(--color1);
+    margin: 10px 0;
+}
+
 /*--------------------------------------------- MAIN ---------------------------------------------*/
 main {
     margin-left: 40px;

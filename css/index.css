@@ -103,6 +103,7 @@ button img {
     height: 30px;
     gap: 10px;
 }
+/*--------------------------------------------- ¿Cómo funciona nuestro test? ---------------------------------------------*/
 
 #sub-content3 .Container {
     display:flex ;
@@ -110,6 +111,7 @@ button img {
     flex-wrap: wrap;
     gap: 20px;
 }
+/* Titutlo*/
 #sub-content-text3 .titulo {
     display: flex; /* Utilizar flexbox para organizar los elementos */
     align-items: center; /* Centrar verticalmente los elementos */
@@ -129,7 +131,7 @@ button img {
     margin-left: 10px; /* Agregar un margen a la izquierda de la imagen para separarla del texto */
 }
 
-
+/*test*/
 #sub-content3 .column1{
     background-image: linear-gradient(to top, var(--color2), var(--color3));
 }
@@ -157,6 +159,7 @@ button img {
     font-weight: bold;
     font-size: 60px;
 }
+/*Responsive*/
 @media screen and (max-width: 916px) {
     #sub-content-text3 h1 {
         font-size: 24px; 
@@ -191,6 +194,7 @@ button img {
     margin: 10px 0;
 }
 
+/*Ejemplo de resultado*/
 #sub-content3 .Conten-Example{
     background-color: white;
     margin: 20px; /* Reduce el margen para adaptarse mejor a dispositivos móviles */
@@ -251,7 +255,7 @@ button img {
 #sub-content3 #UTP {
     margin-top: 30px;
 }
-
+/*Responsive*/
 @media screen and (max-width: 916px) {
     #sub-content3 .Example .Opcion1,
     #sub-content3 .Example .Opcion2 {

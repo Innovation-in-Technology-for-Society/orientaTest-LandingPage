@@ -1,0 +1,105 @@
+:root{
+    --color1: #E5D9F2;
+    --color2: #F5EFFF;
+    --color3: #CDC1FF;
+    --color4: #A594F9;
+    --color5: #7371FC;
+}
+
+body{
+    font-family: Quicksand;
+    background-color: var(--color2);
+}
+
+/*--------------------------------------------- HEADER ---------------------------------------------*/
+
+header{
+    background-image: linear-gradient(to right, var(--color2), var(--color4));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 33px 40px 33px 40px;
+    height: 116px;
+    border-radius: 60px;
+}
+
+header .left{
+    width: 50%;
+    margin-left: 78px;
+}
+.left img{
+    height: 100px;
+}
+
+header .right{
+    width: 50%;
+}
+header .right a{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0% 2% 0% 4%;
+    padding: 13px 4% 13px 4%;
+}
+
+/*--------------------------------------------- MAIN ---------------------------------------------*/
+main {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+}
+
+/* --------------------------------------------- ¿Quiénes somos? --------------------------------------------- */
+/*sub-content-text*/
+#sub-content-text{
+    height: 187px;
+    margin-bottom: 33px;
+}
+#sub-content-text h1{
+    color: var(--color5);
+    font-size: 55px;
+    margin-top: 24px;
+}
+#sub-content-text h1 p{
+    margin-top: 0;
+}
+/*sub-content*/
+#sub-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sub-content h2{
+    font-weight:500;
+    font-size: 45px;
+}
+
+.text, .text2, .students, .call-to-action{
+    flex-basis: 45%;
+}
+
+.text{
+    align-self: flex-start;
+}
+.students {
+    display: flex;
+    height: 347px;
+}
+.text2 {
+    align-self: flex-end;
+}
+.call-to-action button{
+    display: flex;
+    flex-direction: row;
+}
+button img {
+    height: 30px;
+    gap: 10px;
+}

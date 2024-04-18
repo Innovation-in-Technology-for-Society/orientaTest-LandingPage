@@ -393,5 +393,174 @@ button img{
     border-radius: 150px;
 }
 
+/* --------------------------------------------- ¿Por qué deberías elegirnos? --------------------------------------------- */
+/*sub-content-text2*/
+.content-container {
+    display: flex; /* Usa flexbox para organizar los elementos dentro del contenedor */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
 
+#sub-content-text2 {
+    margin-top: 125px; /* Ajusta el margen superior según sea necesario para separar el contenedor del borde superior */
+}
 
+#sub-content-text2 h1 {
+    color: var(--color5);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 0; /* Elimina el margen superior que habías establecido anteriormente */
+    margin-bottom: 0; /* También puedes eliminar el margen inferior si lo deseas */
+}
+
+#sub-content-text2 img {
+    max-width: 100%;
+    margin-left: 20px; /* Ajusta el margen izquierdo para separar la imagen del texto */
+}
+
+#contenedor-informacion {
+    margin-top: 75px;
+}
+
+/* Estilos para el nuevo contenedor interno */
+#informacion {
+    padding-right: 60px;
+    padding-bottom: 30px;
+    border-radius: 45px; /* Bordes redondeados */
+    box-shadow: 20px 20px 10px rgba(229, 217, 242, 1); /* Sombra en la parte inferior derecha */
+    margin-left: 600px
+}
+
+#informacion h5 {
+    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
+    font-weight: bold; /* Negrita */
+    font-size: 44px; /* Tamaño de fuente de 44px */
+    text-align: right;
+    margin-bottom: 8px
+}
+
+#informacion p {
+    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
+    font-weight: normal; /* Regular (no negrita) */
+    font-size: 28px; /* Tamaño de fuente de 28px */
+    color: #A594F9; /* Color de texto */
+    margin-left: 110px;
+}
+
+#contenedor-informacion img {
+    margin-top: 100px;
+    margin-left: 510px; /* Ajusta los márgenes negativos para superponer la imagen */
+    float: left; /* Coloca la imagen a la izquierda */
+}
+
+/*--------------------------------------------*/
+
+#contenedor-2 {
+    margin-top: 75px;
+}
+
+/* Estilos para el nuevo contenedor interno */
+#contenedor2 {
+    padding-left: 60px;
+    padding-bottom: 30px;
+    border-radius: 45px; /* Bordes redondeados */
+    box-shadow: -20px 20px 10px rgba(229, 217, 242, 1); /* Sombra en la parte inferior derecha */
+    margin-right: 600px
+}
+
+#contenedor2 h5 {
+    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
+    font-weight: bold; /* Negrita */
+    font-size: 44px; /* Tamaño de fuente de 44px */
+    text-align: left;
+    margin-bottom: 8px
+}
+
+#contenedor2 p {
+    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
+    font-weight: normal; /* Regular (no negrita) */
+    font-size: 28px; /* Tamaño de fuente de 28px */
+    color: #A594F9; /* Color de texto */
+    margin-right: 180px;
+}
+
+#contenedor-2 img {
+    margin-top: 80px;
+    margin-right: 510px; 
+    float: right;
+}
+
+/*--------------------------------------------*/
+
+#contenedor-3 {
+    margin-top: 75px;
+}
+
+/* Estilos para el nuevo contenedor interno */
+#contenedor3 {
+    padding-right: 60px;
+    padding-bottom: 30px;
+    border-radius: 45px; /* Bordes redondeados */
+    box-shadow: 20px 20px 10px rgba(229, 217, 242, 1); /* Sombra en la parte inferior derecha */
+    margin-left: 600px
+}
+
+#contenedor3 h5 {
+    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
+    font-weight: bold; /* Negrita */
+    font-size: 44px; /* Tamaño de fuente de 44px */
+    text-align: right;
+    margin-bottom: 8px
+}
+
+#contenedor3 p {
+    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
+    font-weight: normal; /* Regular (no negrita) */
+    font-size: 28px; /* Tamaño de fuente de 28px */
+    color: #A594F9; /* Color de texto */
+    margin-left: 110px;
+}
+
+#contenedor-3 img {
+    margin-top: 50px;
+    margin-left: 425px; /* Ajusta los márgenes negativos para superponer la imagen */
+    float: left; /* Coloca la imagen a la izquierda */
+}
+
+/*--------------------------------------------*/
+
+#contenedor-4 {
+    margin-top: 75px;
+}
+
+/* Estilos para el nuevo contenedor interno */
+#contenedor4 {
+    padding-left: 60px;
+    padding-bottom: 30px;
+    border-radius: 45px; /* Bordes redondeados */
+    box-shadow: -20px 20px 10px rgba(229, 217, 242, 1); /* Sombra en la parte inferior derecha */
+    margin-right: 600px
+}
+
+#contenedor4 h5 {
+    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
+    font-weight: bold; /* Negrita */
+    font-size: 44px; /* Tamaño de fuente de 44px */
+    text-align: left;
+    margin-bottom: 8px
+}
+
+#contenedor4 p {
+    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
+    font-weight: normal; /* Regular (no negrita) */
+    font-size: 28px; /* Tamaño de fuente de 28px */
+    color: #A594F9; /* Color de texto */
+    margin-right: 180px;
+}
+
+#contenedor-4 img {
+    margin-top: 40px;
+    margin-right: 510px; 
+    float: right;
+}

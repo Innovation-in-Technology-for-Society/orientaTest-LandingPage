@@ -396,13 +396,13 @@ button img{
 /* --------------------------------------------- ¿Por qué deberías elegirnos? --------------------------------------------- */
 /*sub-content-text2*/
 .content-container {
-    display: flex; /* Usa flexbox para organizar los elementos dentro del contenedor */
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: center; /* Centra horizontalmente los elementos */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 #sub-content-text2 {
-    margin-top: 125px; /* Ajusta el margen superior según sea necesario para separar el contenedor del borde superior */
+    margin-top: 125px; 
 }
 
 #sub-content-text2 h1 {
@@ -410,13 +410,13 @@ button img{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 55px;
-    margin-top: 0; /* Elimina el margen superior que habías establecido anteriormente */
-    margin-bottom: 0; /* También puedes eliminar el margen inferior si lo deseas */
+    margin-top: 0; 
+    margin-bottom: 0; 
 }
 
 #sub-content-text2 img {
     max-width: 100%;
-    margin-left: 20px; /* Ajusta el margen izquierdo para separar la imagen del texto */
+    margin-left: 20px; 
 }
 
 #contenedor-informacion {
@@ -427,31 +427,31 @@ button img{
 #informacion {
     padding-right: 60px;
     padding-bottom: 30px;
-    border-radius: 45px; /* Bordes redondeados */
-    box-shadow: 20px 20px 10px rgba(229, 217, 242, 1); /* Sombra en la parte inferior derecha */
+    border-radius: 45px; 
+    box-shadow: 20px 20px 10px rgba(229, 217, 242, 1); 
     margin-left: 600px
 }
 
 #informacion h5 {
-    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
-    font-weight: bold; /* Negrita */
-    font-size: 44px; /* Tamaño de fuente de 44px */
+    font-family: Quicksand, sans-serif; 
+    font-weight: bold; 
+    font-size: 44px; 
     text-align: right;
     margin-bottom: 8px
 }
 
 #informacion p {
-    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
-    font-weight: normal; /* Regular (no negrita) */
-    font-size: 28px; /* Tamaño de fuente de 28px */
-    color: #A594F9; /* Color de texto */
+    font-family: Quicksand, sans-serif; 
+    font-weight: normal; 
+    font-size: 28px; 
+    color: #A594F9; 
     margin-left: 110px;
 }
 
 #contenedor-informacion img {
     margin-top: 100px;
-    margin-left: 510px; /* Ajusta los márgenes negativos para superponer la imagen */
-    float: left; /* Coloca la imagen a la izquierda */
+    margin-left: 510px; 
+    float: left; 
 }
 
 /*--------------------------------------------*/
@@ -464,24 +464,24 @@ button img{
 #contenedor2 {
     padding-left: 60px;
     padding-bottom: 30px;
-    border-radius: 45px; /* Bordes redondeados */
-    box-shadow: -20px 20px 10px rgba(229, 217, 242, 1); /* Sombra en la parte inferior derecha */
+    border-radius: 45px; 
+    box-shadow: -20px 20px 10px rgba(229, 217, 242, 1); 
     margin-right: 600px
 }
 
 #contenedor2 h5 {
-    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
-    font-weight: bold; /* Negrita */
-    font-size: 44px; /* Tamaño de fuente de 44px */
+    font-family: Quicksand, sans-serif; 
+    font-weight: bold; 
+    font-size: 44px; 
     text-align: left;
     margin-bottom: 8px
 }
 
 #contenedor2 p {
-    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
-    font-weight: normal; /* Regular (no negrita) */
-    font-size: 28px; /* Tamaño de fuente de 28px */
-    color: #A594F9; /* Color de texto */
+    font-family: Quicksand, sans-serif; 
+    font-weight: normal; 
+    font-size: 28px; 
+    color: #A594F9; 
     margin-right: 180px;
 }
 
@@ -501,31 +501,31 @@ button img{
 #contenedor3 {
     padding-right: 60px;
     padding-bottom: 30px;
-    border-radius: 45px; /* Bordes redondeados */
-    box-shadow: 20px 20px 10px rgba(229, 217, 242, 1); /* Sombra en la parte inferior derecha */
+    border-radius: 45px; 
+    box-shadow: 20px 20px 10px rgba(229, 217, 242, 1); 
     margin-left: 600px
 }
 
 #contenedor3 h5 {
-    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
-    font-weight: bold; /* Negrita */
-    font-size: 44px; /* Tamaño de fuente de 44px */
+    font-family: Quicksand, sans-serif; 
+    font-weight: bold; 
+    font-size: 44px; 
     text-align: right;
     margin-bottom: 8px
 }
 
 #contenedor3 p {
-    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
-    font-weight: normal; /* Regular (no negrita) */
-    font-size: 28px; /* Tamaño de fuente de 28px */
-    color: #A594F9; /* Color de texto */
+    font-family: Quicksand, sans-serif;
+    font-weight: normal; 
+    font-size: 28px;
+    color: #A594F9; 
     margin-left: 110px;
 }
 
 #contenedor-3 img {
     margin-top: 50px;
-    margin-left: 425px; /* Ajusta los márgenes negativos para superponer la imagen */
-    float: left; /* Coloca la imagen a la izquierda */
+    margin-left: 425px; 
+    float: left; 
 }
 
 /*--------------------------------------------*/
@@ -538,24 +538,24 @@ button img{
 #contenedor4 {
     padding-left: 60px;
     padding-bottom: 30px;
-    border-radius: 45px; /* Bordes redondeados */
-    box-shadow: -20px 20px 10px rgba(229, 217, 242, 1); /* Sombra en la parte inferior derecha */
+    border-radius: 45px; 
+    box-shadow: -20px 20px 10px rgba(229, 217, 242, 1); 
     margin-right: 600px
 }
 
 #contenedor4 h5 {
-    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
-    font-weight: bold; /* Negrita */
-    font-size: 44px; /* Tamaño de fuente de 44px */
+    font-family: Quicksand, sans-serif;
+    font-weight: bold; 
+    font-size: 44px; 
     text-align: left;
     margin-bottom: 8px
 }
 
 #contenedor4 p {
-    font-family: Quicksand, sans-serif; /* Quicksand como fuente */
-    font-weight: normal; /* Regular (no negrita) */
-    font-size: 28px; /* Tamaño de fuente de 28px */
-    color: #A594F9; /* Color de texto */
+    font-family: Quicksand, sans-serif; 
+    font-weight: normal; 
+    font-size: 28px; 
+    color: #A594F9; 
     margin-right: 180px;
 }
 
@@ -563,4 +563,61 @@ button img{
     margin-top: 40px;
     margin-right: 510px; 
     float: right;
+}
+
+/* Estilos generales */
+@media only screen and (max-width: 768px) {
+    .content-container {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+    }
+    
+    #sub-content-text2 h1 {
+        font-size: 40px; 
+        text-align: center; 
+    }
+    
+    #sub-content-text2 img {
+        margin-left: 0; 
+        margin-top: 20px;
+        max-width: 80%; 
+    }
+
+    #contenedor-informacion, #contenedor-2, #contenedor-3, #contenedor-4 {
+        margin-top: 50px; 
+    }
+
+    #informacion, #contenedor2, #contenedor3, #contenedor4 {
+        padding: 30px; 
+        margin: 0 auto; 
+    }
+
+    #contenedor-informacion img, #contenedor-2 img, #contenedor-3 img, #contenedor-4 img {
+        margin-top: 20px; 
+        max-width: 80%; 
+    }
+
+    #informacion, #contenedor3 {
+        margin-left: 0; 
+        margin-right: 0;
+    }
+
+    #contenedor2, #contenedor4 {
+        margin-right: 0;
+        margin-left: 0; 
+    }
+    #contenedor-2 img {
+        margin-top: 20px;
+        margin-left: 400px;
+        max-width: 80%;
+        float: left; 
+    }
+
+    #contenedor-4 img {
+        margin-top: 20px;
+        margin-left: 300px;
+        max-width: 80%;
+        float: left;
+    }
 }

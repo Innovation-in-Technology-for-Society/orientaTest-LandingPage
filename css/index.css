@@ -358,3 +358,40 @@ button img{
         background-position: center;
     }
 }
+
+/* --------------------------------------------- SUSCRIPCIÓN $ --------------------------------------------- */
+/*sub-content-text*/
+#sub-content-text5{
+    height: 107px;
+    margin-bottom: 15px;
+}
+.container-suscripcion {
+    display: flex;
+    justify-content: center;
+}
+
+#sub-content-text5 h1 {
+    color: var(--color5);
+    font-size: 55px;
+    margin-top: 24px;
+}
+
+.columna {
+    flex: 1;
+    text-align: center;
+    font-size: 40px; 
+}
+
+
+.container-suscripcion .columna:first-child {
+    background-image: linear-gradient(to bottom, transparent, var(--color3));
+    border-radius: 150px;
+}
+
+.container-suscripcion .columna:last-child {
+    background-image: linear-gradient(to top, transparent, var(--color3)); 
+    border-radius: 150px;
+}
+
+
+

@@ -43,20 +43,6 @@ header .right a{
     padding: 13px 4% 13px 4%;
 }
 
-/*separador container*/
-.separator-container {
-    width: 67%;
-    margin: 0 auto;
-}
-
-/*separador*/
-.separator {
-    border: none;
-    /* Sin borde */
-    border-top: 4px solid var(--color1);
-    margin: 10px 0;
-}
-
 /*--------------------------------------------- MAIN ---------------------------------------------*/
 main {
     margin-left: 40px;
@@ -136,7 +122,179 @@ button img{
     margin-right: 1%;
 }
 
+/*--------------------------------------------- ¿Cómo funciona nuestro test? ---------------------------------------------*/
+
+#sub-content3 .Container {
+    display:flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#sub-content-text3 .titulo {
+    display: flex; /* Utilizar flexbox para organizar los elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+    justify-content: center; /* Centrar horizontalmente los elementos */
+    padding: 30px 40px;
+    flex-basis: 45%;
+}
+
+#sub-content-text3 h1{
+    color: var(--color5);
+    font-size: 36px; 
+    margin: 0; 
+}
+
+#sub-content-text3 .titulo img {
+    max-width: 50px; /* Ajustar el ancho máximo de la imagen según sea necesario */
+    margin-left: 10px; /* Agregar un margen a la izquierda de la imagen para separarla del texto */
+}
+
+
+#sub-content3 .column1{
+    background-image: linear-gradient(to top, var(--color2), var(--color3));
+}
+#sub-content3 .column2{
+    background-image: linear-gradient(to bottom, var(--color2), var(--color3));
+}
+#sub-content3 .column1,
+#sub-content3 .column2 {
+    margin: 40px 0; 
+    width: calc(50% - 60px); 
+    border-radius: 175px;
+    padding: 0 30px; 
+    flex-basis: 45%;
+}
+#sub-content3 p{
+    padding-top:  40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right:80px;
+    font-size: 40px;
+    font-weight: normal;
+    font-size: 45px;
+}
+#sub-content3 h2{
+    font-weight: bold;
+    font-size: 60px;
+}
+@media screen and (max-width: 916px) {
+    #sub-content-text3 h1 {
+        font-size: 24px; 
+    }
+    #sub-content3 .Container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #sub-content3 .column1,
+    #sub-content3 .column2 {
+        width: 100%;
+        margin: 20px 0; 
+        padding: 20px; 
+        border-radius: 0; 
+    }
+    #sub-content3 h2,
+    #sub-content3 p {
+        font-size: 20px; 
+    }
+    #sub-content3 h2 {
+        margin-top: 0;
+    }
+}
+
+.separator-container {
+    width: 67%;
+    margin: 0 auto;
+}
+.separator {
+    border: none;
+    border-top: 4px solid var(--color1);
+    margin: 10px 0;
+}
+
+#sub-content3 .Conten-Example{
+    background-color: white;
+    margin: 20px; /* Reduce el margen para adaptarse mejor a dispositivos móviles */
+    padding-bottom: 30px;
+    border-radius: 30px; /* Reduzca el radio del borde para una apariencia más limpia en dispositivos móviles */
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(229, 217, 242, 1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(229, 217, 242, 1);
+    box-shadow: 0px 5px 5px 0px rgba(229, 217, 242, 1);
+}
+
+#sub-content3 .Conten-Example h2{
+    font-size: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#sub-content3 .Example {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sub-content3 .Example .Opcion1,
+#sub-content3 .Example .Opcion2 {
+    background-color: var(--color3);
+    text-align: center;
+    width: 40%; /* Cambia el ancho al 90% para adaptarse mejor a dispositivos móviles */
+    margin: 0 auto; /* Centra las opciones en dispositivos móviles */
+    margin-bottom: 20px; /* Agrega margen inferior para separar las opciones */
+}
+
+#sub-content3 .Example .Opcion1,
+#sub-content3 .Example .Opcion2 {
+    background-color: var(--color3);
+    text-align: center;
+    width: 40%; /* Reducir el ancho al 40% para hacer las opciones más pequeñas */
+    margin: 0px 20px;
+    padding: 20px; /* Añadir un poco de relleno para mejorar la apariencia */
+}
+#sub-content3 .Uni p{
+    display: inline-block; /* Cambiar a inline-block para mantener en la misma línea */
+    margin: 0; /* Eliminar el margen para mejor disposición */
+    padding: 0; /* Eliminar el relleno para mejor disposición */
+    font-weight: bold;
+    font-size: 50px; /* Ajustar el tamaño de fuente según sea necesario */
+}
+#sub-content3 .Uni img{
+    display: inline-block; /* Cambiar a inline-block para mantener en la misma línea */
+    max-width: 40%; /* Ajustar el tamaño máximo de la imagen */
+    height: auto;
+    margin-left: 10px; /* Agregar un margen izquierdo para separar la imagen del texto */
+    vertical-align: middle; /* Alinear verticalmente con el texto */
+}
+
+#sub-content3 #UPC p{
+    margin-bottom: 10px;
+    
+}
+
+#sub-content3 #UTP {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 916px) {
+    #sub-content3 .Example .Opcion1,
+    #sub-content3 .Example .Opcion2 {
+        width: 90%; /* Cambiar el ancho al 90% en dispositivos de pantalla pequeña */
+        margin-bottom: 20px; /* Agregar margen inferior para separar las opciones en dispositivos móviles */
+    }
+}
+
 /*--------------------------------------------- Universidades ---------------------------------------------*/
+
+/*separador container*/
+.separator-container {
+    width: 67%;
+    margin: 0 auto;
+}
+
+/*separador*/
+.separator {
+    border: none;
+    /* Sin borde */
+    border-top: 4px solid var(--color1);
+    margin: 10px 0;
+}
 
 /*sub-content-text4*/
 #sub-content-text4 {
@@ -198,5 +356,268 @@ button img{
         background-image: radial-gradient(circle 80px at center, var(--color3), var(--color2));
         background-size: cover;
         background-position: center;
+    }
+}
+
+/* --------------------------------------------- SUSCRIPCIÓN $ --------------------------------------------- */
+/*sub-content-text*/
+#sub-content-text5{
+    height: 107px;
+    margin-bottom: 15px;
+}
+.container-suscripcion {
+    display: flex;
+    justify-content: center;
+}
+
+#sub-content-text5 h1 {
+    color: var(--color5);
+    font-size: 55px;
+    margin-top: 24px;
+}
+
+.columna {
+    flex: 1;
+    text-align: center;
+    font-size: 40px; 
+}
+
+
+.container-suscripcion .columna:first-child {
+    background-image: linear-gradient(to bottom, transparent, var(--color3));
+    border-radius: 150px;
+}
+
+.container-suscripcion .columna:last-child {
+    background-image: linear-gradient(to top, transparent, var(--color3)); 
+    border-radius: 150px;
+}
+
+/* --------------------------------------------- ¿Por qué deberías elegirnos? --------------------------------------------- */
+/*sub-content-text2*/
+.content-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+#sub-content-text2 {
+    margin-top: 125px; 
+}
+
+#sub-content-text2 h1 {
+    color: var(--color5);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 0; 
+    margin-bottom: 0; 
+}
+
+#sub-content-text2 img {
+    max-width: 100%;
+    margin-left: 20px; 
+}
+
+#contenedor-informacion {
+    margin-top: 75px;
+}
+
+/* Estilos para el nuevo contenedor interno */
+#informacion {
+    padding-right: 60px;
+    padding-bottom: 30px;
+    border-radius: 45px; 
+    box-shadow: 20px 20px 10px rgba(229, 217, 242, 1); 
+    margin-left: 600px
+}
+
+#informacion h5 {
+    font-family: Quicksand, sans-serif; 
+    font-weight: bold; 
+    font-size: 44px; 
+    text-align: right;
+    margin-bottom: 8px
+}
+
+#informacion p {
+    font-family: Quicksand, sans-serif; 
+    font-weight: normal; 
+    font-size: 28px; 
+    color: #A594F9; 
+    margin-left: 110px;
+}
+
+#contenedor-informacion img {
+    margin-top: 100px;
+    margin-left: 510px; 
+    float: left; 
+}
+
+/*--------------------------------------------*/
+
+#contenedor-2 {
+    margin-top: 75px;
+}
+
+/* Estilos para el nuevo contenedor interno */
+#contenedor2 {
+    padding-left: 60px;
+    padding-bottom: 30px;
+    border-radius: 45px; 
+    box-shadow: -20px 20px 10px rgba(229, 217, 242, 1); 
+    margin-right: 600px
+}
+
+#contenedor2 h5 {
+    font-family: Quicksand, sans-serif; 
+    font-weight: bold; 
+    font-size: 44px; 
+    text-align: left;
+    margin-bottom: 8px
+}
+
+#contenedor2 p {
+    font-family: Quicksand, sans-serif; 
+    font-weight: normal; 
+    font-size: 28px; 
+    color: #A594F9; 
+    margin-right: 180px;
+}
+
+#contenedor-2 img {
+    margin-top: 80px;
+    margin-right: 510px; 
+    float: right;
+}
+
+/*--------------------------------------------*/
+
+#contenedor-3 {
+    margin-top: 75px;
+}
+
+/* Estilos para el nuevo contenedor interno */
+#contenedor3 {
+    padding-right: 60px;
+    padding-bottom: 30px;
+    border-radius: 45px; 
+    box-shadow: 20px 20px 10px rgba(229, 217, 242, 1); 
+    margin-left: 600px
+}
+
+#contenedor3 h5 {
+    font-family: Quicksand, sans-serif; 
+    font-weight: bold; 
+    font-size: 44px; 
+    text-align: right;
+    margin-bottom: 8px
+}
+
+#contenedor3 p {
+    font-family: Quicksand, sans-serif;
+    font-weight: normal; 
+    font-size: 28px;
+    color: #A594F9; 
+    margin-left: 110px;
+}
+
+#contenedor-3 img {
+    margin-top: 50px;
+    margin-left: 425px; 
+    float: left; 
+}
+
+/*--------------------------------------------*/
+
+#contenedor-4 {
+    margin-top: 75px;
+}
+
+/* Estilos para el nuevo contenedor interno */
+#contenedor4 {
+    padding-left: 60px;
+    padding-bottom: 30px;
+    border-radius: 45px; 
+    box-shadow: -20px 20px 10px rgba(229, 217, 242, 1); 
+    margin-right: 600px
+}
+
+#contenedor4 h5 {
+    font-family: Quicksand, sans-serif;
+    font-weight: bold; 
+    font-size: 44px; 
+    text-align: left;
+    margin-bottom: 8px
+}
+
+#contenedor4 p {
+    font-family: Quicksand, sans-serif; 
+    font-weight: normal; 
+    font-size: 28px; 
+    color: #A594F9; 
+    margin-right: 180px;
+}
+
+#contenedor-4 img {
+    margin-top: 40px;
+    margin-right: 510px; 
+    float: right;
+}
+
+/* Estilos generales */
+@media only screen and (max-width: 768px) {
+    .content-container {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+    }
+    
+    #sub-content-text2 h1 {
+        font-size: 40px; 
+        text-align: center; 
+    }
+    
+    #sub-content-text2 img {
+        margin-left: 0; 
+        margin-top: 20px;
+        max-width: 80%; 
+    }
+
+    #contenedor-informacion, #contenedor-2, #contenedor-3, #contenedor-4 {
+        margin-top: 50px; 
+    }
+
+    #informacion, #contenedor2, #contenedor3, #contenedor4 {
+        padding: 30px; 
+        margin: 0 auto; 
+    }
+
+    #contenedor-informacion img, #contenedor-2 img, #contenedor-3 img, #contenedor-4 img {
+        margin-top: 20px; 
+        max-width: 80%; 
+    }
+
+    #informacion, #contenedor3 {
+        margin-left: 0; 
+        margin-right: 0;
+    }
+
+    #contenedor2, #contenedor4 {
+        margin-right: 0;
+        margin-left: 0; 
+    }
+    #contenedor-2 img {
+        margin-top: 20px;
+        margin-left: 400px;
+        max-width: 80%;
+        float: left; 
+    }
+
+    #contenedor-4 img {
+        margin-top: 20px;
+        margin-left: 300px;
+        max-width: 80%;
+        float: left;
     }
 }
